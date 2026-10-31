@@ -1,0 +1,19 @@
+{
+  "name": "infrai-devtools-image-link",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx src/image_link_cli.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx src/image_link_test.ts"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
